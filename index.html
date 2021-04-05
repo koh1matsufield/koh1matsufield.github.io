@@ -1,90 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="jp">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <title>Your Tour</title>
+    <meta name="description" content="あなたの行きたい場所が見つかる便利なサイト">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+    <div id="home" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202021-02-16%20123201.png"></a></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="domestic.html">国内</a></li>
+                    <li><a href="worldwide.html">海外</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                    <li><a href="english.html">English</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="home-content wrapper">
+            <h2 class="page-title">新しい場所、新しい出会い。</h2>
+            <h3>
+                <p>あなたの行きたい場所を一緒に見つけよう！</p>
+            </h3>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
     </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
+
+    <div class="find">
+        <h4>↓ 下記を<strong>クリック</strong>して見つけよう！ ↓</h4>
     </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
+
+   <div class="search">
+    <div class="domestic">
+            <table border="2">
+                <tr>
+                    <th colspan="2">
+                        <a class="button" href="menu.html">国内</a>
+                    </th>
+                </tr>
+                <tr>
+                    <td><img class="domestic" src="images/tokyo.jpeg"></td>
+                    <td><img class="domestic" src="images/kyoto.jpeg"></td>
+                </tr>
+                <tr>
+                    <td><img class="domestic" src="images/hiroshima.jpeg"></td>
+                    <td><img class="domestic" src="images/dotonbori2.jpg"></td>
+                </tr>
+        </table></div>
+<div class="world">
+        <table border="2">
+                <tr>
+                    <th colspan="2">
+                        <a class="button" href="menu.html">海外</a>
+                    </th>
+                </tr>
+                <tr>
+                    <td><img class="world" src="images/hawaii.jpeg"></td>
+                    <td><img class="world" src="images/rome.jpeg"></td>
+                </tr>
+                <tr>
+                    <td><img class="world" src="images/paris.jpeg"></td>
+                    <td><img class="world" src="images/germany.jpeg"></td>
+                </tr>
+        </table>
+    </div></div>
+
+   <div class="information-box">
+   <p>【お知らせ】</p>
+       <ul>
+       <li><p><a href="goto.html" target="_blank">Go To トラベルキャンペーンについて</a></p></li>
+       <li><p><a href="https://goto.jata-net.or.jp/info/2021020201.html" target="_blank">Go To トラベル事業の一時停止措置の継続について（外部サイトに遷移します）</a></p>
+       </li>
+       </ul></div>
+    今だけ1000円OFF!国内日帰りバス・飛行機・電車/宿泊海外ホテル+航空券ホテルのみ航空券のみ
+    海特集
+    人数
+
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </body>
+<i class="fab fa-line"></i>
+<i class="fab fa-whatsapp"></i>
+<i class="fab fa-instagram"></i>
+
+<footer>
+    <div class="wrapper">
+        <p><small>&copy; 2021 YourTour</small></p>
+    </div>
+</footer>
+
 </html>
